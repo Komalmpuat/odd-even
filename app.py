@@ -6,7 +6,7 @@ get_ipython().system_raw('./ngrok http 8501 &')
 'import sys, json; print("Execute the next cell and the go to the following URL:"+json.load(sys.stdin)["tunnels"][0]["public_url"])'
 
 import streamlit as st
-import pandas as pd
+#import pandas as pd
 st.header("Odd Even testing App")
 st.write("Enter test data")
 def user_inputs():

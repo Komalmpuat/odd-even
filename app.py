@@ -1,4 +1,4 @@
-!wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+#!wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 !unzip ngrok-stable-linux-amd64.zip
 ! /content/ngrok authtoken 2COdcNWpkLVu4XjeM5n4D8El5uS_6naD4aoomGzaxMKXXqypB
 get_ipython().system_raw('./ngrok http 8501 &')
